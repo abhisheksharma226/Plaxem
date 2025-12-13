@@ -1,257 +1,96 @@
-"use client"
-
+// 2. ProgressTrackingUI.jsx
 import type React from "react"
 
-const RealtimeCodingPreviews: React.FC = () => {
+const ProgressTrackingUI: React.FC = () => {
   const themeVars = {
-    "--realtime-primary-color": "hsl(var(--primary))",
-    "--realtime-background-editor": "hsl(var(--background) / 0.8)", // Tinted gray from background
-    "--realtime-background-preview": "hsl(var(--background) / 0.8)", // Tinted gray from background
-    "--realtime-text-color": "hsl(var(--foreground))",
-    "--realtime-text-editor": "hsl(var(--foreground))",
-    "--realtime-text-preview": "hsl(var(--primary-foreground))", // For button text
-    "--realtime-border-color": "hsl(var(--border))",
-    "--realtime-border-main": "hsl(var(--border))",
-    "--realtime-connection-color": "hsl(var(--muted-foreground))",
+    "--ai-primary-color": "#00ff88",
+    "--ai-background-color": "#000000",
+    "--ai-text-color": "#ffffff",
+    "--ai-text-dark": "#000000",
+    "--ai-border-color": "rgba(255,255,255,0.1)",
+    "--ai-border-main": "rgba(255,255,255,0.05)",
+    "--ai-highlight-primary": "rgba(0,255,136,0.12)",
+    "--ai-highlight-header": "rgba(0,255,136,0.2)",
   }
 
   return (
     <div
-      className="" // Remove className prop if not used
-      style={
-        {
-          width: "100%", // Use 100% for responsiveness within parent
-          height: "100%", // Use 100% for responsiveness within parent
-          position: "relative",
-          background: "transparent",
-          ...themeVars,
-        } as React.CSSProperties
-      }
+      style={{
+        width: "100%",
+        height: "100%",
+        position: "relative",
+        background: "transparent",
+        ...themeVars,
+      } as React.CSSProperties}
       role="img"
-      aria-label="Realtime Coding Previews interface showing split-screen code editor and live preview"
+      aria-label="Real-time progress tracking with dynamic bars"
     >
-      {/* Left Panel - Code Editor */}
       <div
         style={{
           position: "absolute",
-          top: "46px",
+          top: "30px",
           left: "50%",
-          transform: "translateX(-50%)",
-          width: "350px",
-          height: "221px",
-          background: "linear-gradient(180deg, var(--realtime-background-editor) 0%, transparent 100%)",
-          backdropFilter: "blur(7.907px)",
-          borderRadius: "9.488px",
-          border: "1px solid var(--realtime-border-main)",
+          transform: "translateX(-50%) scale(0.9)",
+          width: "340px",
+          height: "205.949px",
+          background: "linear-gradient(180deg, var(--ai-background-color) 0%, transparent 100%)",
+          opacity: 0.6,
+          borderRadius: "8.826px",
+          border: "0.791px solid var(--ai-border-color)",
           overflow: "hidden",
-          boxSizing: "border-box",
+          backdropFilter: "blur(16px)",
         }}
-        data-name="code-editor"
       >
-        <div
-          style={{
-            padding: "9.488px 9.492px",
-            height: "100%",
-            boxSizing: "border-box",
-            position: "relative",
-            overflow: "hidden",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            justifyContent: "flex-start",
-          }}
-        >
-          <div
-            style={{
-              fontFamily: "'Geist Mono', 'SF Mono', Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
-              fontSize: "10.279px",
-              lineHeight: "15.814px",
-              letterSpacing: "-0.3163px",
-              color: "var(--realtime-text-editor)",
-              width: "545.453px",
-              maxWidth: "100%",
-              position: "relative",
-              margin: 0,
-              flexGrow: 1,
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-            }}
-          >
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}>switch (type) {"{"}</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}> case 'success':</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}> return {"{"}</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}>
-              {" "}
-              border: theme === 'dark' ? 'border-[rgba(34,197,94,0.4)]' : 'border-green-200',
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}> icon: (</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}>
-              {" "}
-              &lt;svg className={"{baseIconClasses}"} fill="none" viewBox="0 0 14 14"&gt;
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}> &lt;path</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}>
-              {" "}
-              d="M3.85156 7.875L6.47656 10.5L10.8516 3.5"
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}>
-              {" "}
-              stroke="var(--realtime-primary-color)"
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}>
-              {" "}
-              strokeLinecap="round"
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}>
-              {" "}
-              strokeLinejoin="round"
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}> strokeWidth="1.5"</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}> /&gt;</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400, display: "block" }}> &lt;/svg&gt;</p>
+        <div style={{ padding: "7.355px 8.826px", height: "100%", boxSizing: "border-box", overflow: "hidden" }}>
+          <div style={{ fontFamily: "'Geist Mono', monospace", fontSize: "9.562px", lineHeight: "14.711px", color: "hsl(var(--muted-foreground))" }}>
+            <p>TCS DSA ............... 85%</p>
+            <p>Accenture SQL ....... 72%</p>
+            <p>Wipro Aptitude ..... 95%</p>
+            <p>Infosys Coding ...... 78%</p>
+            <p>Cognizant DBMS ... 69%</p>
+            <p>Capgemini HR ........ 83%</p>
           </div>
         </div>
       </div>
 
-      {/* Right Panel - Live Preview */}
       <div
         style={{
           position: "absolute",
-          top: "46px",
-          left: "calc(50% + 87.499px)",
-          transform: "translateX(-50%)",
-          width: "175px",
-          height: "221px",
-          background: "linear-gradient(180deg, var(--realtime-background-preview) 0%, transparent 100%)",
-          backdropFilter: "blur(7.907px)",
-          borderRadius: "9.488px",
-          borderTopRightRadius: "9.488px",
-          // Removed the border property from here
-          overflow: "hidden",
-          boxSizing: "border-box",
-        }}
-        data-name="preview-panel"
-      >
-        <div
-          style={{
-            padding: "9.488px 9.492px",
-            height: "100%",
-            boxSizing: "border-box",
-            position: "relative",
-            overflow: "hidden",
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "flex-start",
-            justifyContent: "center",
-            background: "var(--realtime-background-preview)", // Applied solid background here
-          }}
-        >
-          {/* Download Button - Exact positioning from Figma */}
-          <div
-            style={{
-              position: "absolute",
-              top: "calc(50% + 0.001px)",
-              left: "calc(50% - 71.501px)",
-              transform: "translate(-50%, -50%)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: "7.907px",
-              background: "var(--realtime-primary-color)",
-              color: "var(--realtime-text-preview)",
-              border: "none",
-              cursor: "pointer",
-              fontWeight: 500,
-              whiteSpace: "nowrap",
-              transition: "all 0.2s ease",
-              padding: "6.326px 12.651px",
-              borderRadius: "11.07px",
-              boxShadow:
-                "0px 52.186px 14.233px rgba(0, 0, 0, 0), 0px 33.209px 12.651px rgba(0, 0, 0, 0.01), 0px 18.977px 11.07px rgba(0, 0, 0, 0.05), 0px 7.907px 7.907px rgba(0, 0, 0, 0.09), 0px 1.581px 4.744px rgba(0, 0, 0, 0.1)",
-              boxSizing: "border-box",
-            }}
-          >
-            <div
-              style={{
-                fontFamily: "'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-                fontSize: "20.558px",
-                lineHeight: "31.628px",
-                letterSpacing: "-0.6326px",
-                fontWeight: 500,
-                color: "var(--realtime-text-preview)", // Changed to use theme variable
-                textAlign: "left",
-                whiteSpace: "pre",
-              }}
-            >
-              Download for macOS
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Connection Line - Exact positioning from Figma */}
-      <div
-        style={{
-          position: "absolute",
+          top: "51.336px",
           left: "50%",
-          top: "50%",
-          transform: "translate(-50%, -50%)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
+          transform: "translateX(-50%)",
+          width: "340px",
+          height: "221.395px",
+          background: "var(--ai-background-color)",
+          backdropFilter: "blur(16px)",
+          borderRadius: "9.488px",
+          border: "1px solid var(--ai-border-main)",
+          overflow: "hidden",
         }}
       >
-        {/* This div now directly contains the SVG for the vertical line */}
-        <div
-          style={{
-            position: "relative",
-            width: "2px", // Width of the line (stroke width)
-            height: "285.088px", // Length of the line
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <svg
-            width="2"
-            height="285.088"
-            viewBox="0 0 2 285.088"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            style={{
-              position: "absolute",
-              inset: 0,
-              display: "block",
-              maxWidth: "none",
-              width: "100%",
-              height: "100%",
-            }}
-          >
-            <defs>
-              <linearGradient id="connectionGradient" x1="1" y1="0" x2="1" y2="285.088" gradientUnits="userSpaceOnUse">
-                <stop stopColor="var(--realtime-primary-color)" stopOpacity="0" />
-                <stop offset="0.5" stopColor="var(--realtime-primary-color)" />
-                <stop offset="1" stopColor="var(--realtime-primary-color)" stopOpacity="0" />
-              </linearGradient>
-            </defs>
-            <path d="M1 0V285.088" stroke="url(#connectionGradient)" strokeWidth="2" />
-          </svg>
+        <div style={{ padding: "9.488px", height: "100%", boxSizing: "border-box", position: "relative", overflow: "hidden" }} className="bg-card border border-border">
+          <div style={{ position: "absolute", left: 0, right: 0, width: "100%", top: "47.67px", height: "33.118px", background: "hsl(var(--foreground) / 0.08)", zIndex: 1 }} />
+          <div style={{ position: "absolute", left: 0, right: 0, width: "100%", top: "80.791px", height: "45.465px", background: "var(--ai-highlight-primary)", zIndex: 1 }} />
+          <div style={{ fontFamily: "'Geist Mono', monospace", fontSize: "10.279px", lineHeight: "15.814px", letterSpacing: "-0.3163px", color: "var(--ai-text-color)", width: "100%", maxWidth: "320px", position: "relative", zIndex: 2, margin: 0 }}>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>📊 TCS DSA</p>
+            <p style={{ margin: "4px 0", whiteSpace: "pre-wrap" }}>██████████░░░ 85%</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>📈 Accenture SQL</p>
+            <p style={{ margin: "4px 0", whiteSpace: "pre-wrap" }}>████████░░░░░ 72%</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>⚡ Wipro Apt.</p>
+            <p style={{ margin: "4px 0", whiteSpace: "pre-wrap" }}>███████████░░ 95%</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🔧 Infosys Cod.</p>
+            <p style={{ margin: "4px 0", whiteSpace: "pre-wrap" }}>█████████░░░░ 78%</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🛠️ Cognizant DBMS</p>
+            <p style={{ margin: "4px 0", whiteSpace: "pre-wrap" }}>███████░░░░░░ 69%</p>
+            
+          </div>
+          <button style={{ position: "absolute", top: "calc(50% + 29.745px)", right: "20px", transform: "translateY(-50%)", zIndex: 3, display: "flex", alignItems: "center", justifyContent: "center", gap: "3.953px", background: "var(--ai-primary-color)", color: "var(--ai-text-dark)", border: "none", cursor: "pointer", fontWeight: 500, padding: "3.163px 6.326px", borderRadius: "5.535px", fontSize: "10.279px" }}>
+            <span style={{ fontFamily: "'Geist', sans-serif", fontWeight: 500 }}>Track All</span>
+          </button>
         </div>
       </div>
-
-      {/* Live Recording Indicator */}
-
-      {/* Sync Indicator at connection point */}
-
-      <style jsx>{`
-        @keyframes pulse {
-          0%, 100% { opacity: 0.4; }
-          50% { opacity: 1; }
-        }
-      `}</style>
     </div>
   )
 }
 
-export default RealtimeCodingPreviews
+export default ProgressTrackingUI

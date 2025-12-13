@@ -8,17 +8,19 @@ export function FooterSection() {
       {/* Left Section: Logo, Description, Social Links */}
       <div className="flex flex-col justify-start items-start gap-8 p-4 md:p-8">
         <div className="flex gap-3 items-stretch justify-center">
-          <div className="text-center text-foreground text-xl font-semibold leading-4">Pointer</div>
+          <div className="text-center text-foreground text-xl font-semibold leading-4">Plaxem</div>
         </div>
-        <p className="text-foreground/90 text-sm font-medium leading-[18px] text-left">Coding made effortless</p>
+        <p className="text-foreground/90 text-sm font-medium leading-[18px] text-left">
+          Placements made effortless
+        </p>
         <div className="flex justify-start items-start gap-3">
-          <a href="#" aria-label="Twitter" className="w-4 h-4 flex items-center justify-center">
+          <a href="https://www.linkedin.com/in/abhisheksharma-731676205/" aria-label="Twitter" className="w-4 h-4 flex items-center justify-center">
             <Twitter className="w-full h-full text-muted-foreground" />
           </a>
-          <a href="#" aria-label="GitHub" className="w-4 h-4 flex items-center justify-center">
+          <a href="https://github.com/abhisheksharma226" aria-label="GitHub" className="w-4 h-4 flex items-center justify-center">
             <Github className="w-full h-full text-muted-foreground" />
           </a>
-          <a href="#" aria-label="LinkedIn" className="w-4 h-4 flex items-center justify-center">
+          <a href="https://www.linkedin.com/in/abhisheksharma-731676205/" aria-label="LinkedIn" className="w-4 h-4 flex items-center justify-center">
             <Linkedin className="w-full h-full text-muted-foreground" />
           </a>
         </div>
@@ -29,19 +31,19 @@ export function FooterSection() {
           <h3 className="text-muted-foreground text-sm font-medium leading-5">Product</h3>
           <div className="flex flex-col justify-end items-start gap-2">
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Features
+              Companies
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Pricing
+              Practice
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Integrations
+              Progress Tracking
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Real-time Previews
+              Mock Interviews
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Multi-Agent Coding
+              Alumni Wall
             </a>
           </div>
         </div>
@@ -49,16 +51,16 @@ export function FooterSection() {
           <h3 className="text-muted-foreground text-sm font-medium leading-5">Company</h3>
           <div className="flex flex-col justify-center items-start gap-2">
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              About us
+              About Plaxem
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Our team
+              Our Mission
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Careers
+              Alumni Stories
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Brand
+              Brand Kit
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
               Contact
@@ -69,13 +71,13 @@ export function FooterSection() {
           <h3 className="text-muted-foreground text-sm font-medium leading-5">Resources</h3>
           <div className="flex flex-col justify-center items-start gap-2">
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Terms of use
+              Terms of Use
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              API Reference
+              Privacy Policy
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Documentation
+              Preparation Guides
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
               Community

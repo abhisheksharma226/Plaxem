@@ -1,158 +1,181 @@
+// 6. CommunityForumUI.jsx
 import type React from "react"
 
-interface DeploymentEasyProps {
-  /** Width of component – number (px) or any CSS size value */
-  width?: number | string
-  /** Height of component – number (px) or any CSS size value */
-  height?: number | string
-  /** Extra Tailwind / CSS classes for root element */
-  className?: string
-}
-
-const DeploymentEasy: React.FC<DeploymentEasyProps> = ({ width = "100%", height = "100%", className = "" }) => {
-  /* ------------------------------------------------------------
-   * Theme-based design tokens using global CSS variables
-   * ---------------------------------------------------------- */
+const CommunityForumUI: React.FC = () => {
   const themeVars = {
-    "--deploy-primary-color": "hsl(var(--primary))",
-    "--deploy-background-color": "hsl(var(--background))",
-    "--deploy-text-color": "hsl(var(--foreground))",
-    "--deploy-text-secondary": "hsl(var(--muted-foreground))",
-    "--deploy-border-color": "hsl(var(--border))",
-  } as React.CSSProperties
-
-  /* ------------------------------------------------------------
-   * Console log output (static for demo) – can be replaced via props
-   * ---------------------------------------------------------- */
-  const logLines = [
-    "[16:37:25.637] Running build in Washington, D.C., USA (East) – iad1",
-    "[16:37:25.638] Build machine configuration: 2 cores, 8 GB",
-    "[16:37:25.653] Retrieving list of deployment files...",
-    "[16:37:25.741] Previous build caches not available",
-    "[16:37:25.979] Downloading 84 deployment files...",
-    '[16:37:29.945] Running "vercel build"',
-    "[16:37:30.561] Vercel CLI 44.5.0",
-    '[16:37:30.880] Running "install" command: `bun install`...',
-    "[16:37:30.914] bun install v1.2.19 (aad3abea)",
-    "[16:37:30.940] Resolving dependencies",
-    "[16:37:34.436] Resolved, downloaded and extracted [1116]",
-    '[16:37:34.436] warn: incorrect peer dependency "react@19.1.0"',
-    "[16:37:37.265] Saved lockfile",
-    "[16:37:39.076] Next.js anonymous telemetry notice",
-    "[16:37:39.137] ▲ Next.js 15.2.4",
-    "[16:37:41.439] ✓ Compiled successfully",
-    "[16:37:53.979] ✓ Generated static pages",
-    "[16:38:00.585] ○ (Static) prerendered as static content",
-    "[16:38:01.099] Build Completed in /vercel/output [30s]",
-    "🚀 Deployment complete – Easy!",
-  ]
+    "--ai-primary-color": "#00ff88",
+    "--ai-background-color": "#000000",
+    "--ai-text-color": "#ffffff",
+    "--ai-text-dark": "#000000",
+    "--ai-border-color": "rgba(255,255,255,0.1)",
+    "--ai-border-main": "rgba(255,255,255,0.05)",
+    "--ai-highlight-primary": "rgba(0,255,136,0.12)",
+    "--ai-highlight-header": "rgba(0,255,136,0.2)",
+  }
 
   return (
     <div
-      className={`w-full h-full flex items-center justify-center p-4 relative ${className}`}
       style={{
-        width,
-        height,
+        width: "100%",
+        height: "100%",
         position: "relative",
         background: "transparent",
         ...themeVars,
-      }}
+      } as React.CSSProperties}
       role="img"
-      aria-label="Deployment console output with Deploy on Vercel button"
+      aria-label="Community forum showing company-wise discussions in a dark theme"
     >
-      {/* -------------------------------------------------------- */}
-      {/* Console / Terminal panel                                */}
-      {/* -------------------------------------------------------- */}
+      {/* Background Threads (Blurred) */}
       <div
         style={{
           position: "absolute",
-          top: "50%",
+          top: "30px",
           left: "50%",
-          transform: "translate(-50%, -50%)",
+          transform: "translateX(-50%) scale(0.9)",
           width: "340px",
-          height: "239px",
-          background: "linear-gradient(180deg, var(--deploy-background-color) 0%, transparent 100%)",
-          backdropFilter: "blur(7.907px)",
-          borderRadius: "10px",
+          height: "205.949px",
+          background: "linear-gradient(180deg, var(--ai-background-color) 0%, transparent 100%)",
+          opacity: 0.6,
+          borderRadius: "8.826px",
+          border: "0.791px solid var(--ai-border-color)",
+          overflow: "hidden",
+          backdropFilter: "blur(16px)",
+        }}
+      >
+        <div
+          className="border rounded-lg bg-card"
+          style={{
+            padding: "7.355px 8.826px",
+            height: "100%",
+            boxSizing: "border-box",
+            overflow: "hidden",
+          }}
+        >
+          <div
+            style={{
+              fontFamily: "'Geist Mono', monospace",
+              fontSize: "9.562px",
+              lineHeight: "14.711px",
+              letterSpacing: "-0.2942px",
+              color: "hsl(var(--muted-foreground))",
+              width: "100%",
+              maxWidth: "320px",
+              margin: 0,
+            }}
+          >
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>TCS DSA Doubts (147)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Accenture SQL Help (93)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Wipro Aptitude (121)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Infosys HR Round (88)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Cognizant Java (76)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Capgemini OOPS (64)</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Foreground Threads (Main) */}
+      <div
+        style={{
+          position: "absolute",
+          top: "51.336px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          width: "340px",
+          height: "221.395px",
+          background: "var(--ai-background-color)",
+          backdropFilter: "blur(16px)",
+          borderRadius: "9.488px",
+          border: "1px solid var(--ai-border-main)",
           overflow: "hidden",
         }}
       >
-        {/* Inner translucent panel – replicates subtle overlay */}
         <div
+          className="bg-card border border-border"
           style={{
-            position: "absolute",
-            inset: "2px",
-            borderRadius: "8px",
-            background: "hsl(var(--foreground) / 0.08)",
-          }}
-        />
-
-        {/* Log text */}
-        <div
-          style={{
-            position: "relative",
-            padding: "8px",
+            padding: "9.488px",
             height: "100%",
+            boxSizing: "border-box",
+            position: "relative",
             overflow: "hidden",
-            fontFamily: "'Geist Mono', 'SF Mono', Monaco, Consolas, 'Liberation Mono', monospace",
-            fontSize: "10px",
-            lineHeight: "16px",
-            color: "var(--deploy-text-color)",
-            whiteSpace: "pre",
           }}
         >
-          {logLines.map((line, index) => (
-            <p key={index} style={{ margin: 0 }}>
-              {line}
-            </p>
-          ))}
+          <div
+            style={{
+              position: "absolute",
+              left: 0,
+              right: 0,
+              width: "100%",
+              top: "47.67px",
+              height: "33.118px",
+              background: "hsl(var(--foreground) / 0.08)",
+              zIndex: 1,
+            }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              left: 0,
+              right: 0,
+              width: "100%",
+              top: "80.791px",
+              height: "45.465px",
+              background: "var(--ai-highlight-primary)",
+              zIndex: 1,
+            }}
+          />
+          <div
+            style={{
+              fontFamily: "'Geist Mono', monospace",
+              fontSize: "10.279px",
+              lineHeight: "15.814px",
+              letterSpacing: "-0.3163px",
+              color: "var(--ai-text-color)",
+              width: "100%",
+              maxWidth: "320px",
+              position: "relative",
+              zIndex: 2,
+              margin: 0,
+            }}
+          >
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>💬 Community</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}># TCS DSA Doubts (147 replies)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}># Accenture SQL Help (93 replies)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}># Wipro Aptitude (121 replies)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}># Infosys HR Round (88 replies)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}># Cognizant Java (76 replies)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}># Capgemini OOPS (64 replies)</p>
+          </div>
+          <button
+            style={{
+              position: "absolute",
+              top: "calc(50% + 29.745px)",
+              right: "20px",
+              transform: "translateY(-50%)",
+              zIndex: 3,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "3.953px",
+              background: "var(--ai-primary-color)",
+              color: "var(--ai-text-dark)",
+              border: "none",
+              cursor: "pointer",
+              fontWeight: 500,
+              whiteSpace: "nowrap",
+              transition: "all 0.2s ease",
+              padding: "3.163px 6.326px",
+              borderRadius: "5.535px",
+              fontSize: "10.279px",
+              lineHeight: "15.814px",
+              letterSpacing: "-0.3163px",
+            }}
+          >
+            <span style={{ fontFamily: "'Geist', sans-serif", fontWeight: 500 }}>Join Chat</span>
+          </button>
         </div>
-
-        {/* Inner border overlay */}
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            border: "0.791px solid var(--deploy-border-color)",
-            borderRadius: "10px",
-            pointerEvents: "none",
-          }}
-        />
       </div>
-
-      {/* -------------------------------------------------------- */}
-      {/* Call-to-action button                                   */}
-      {/* -------------------------------------------------------- */}
-      <button
-        style={{
-          position: "absolute",
-          top: "calc(50% + 57.6px)",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: "6.375px",
-          padding: "5.1px 10.2px",
-          background: "var(--deploy-primary-color)",
-          color: "hsl(var(--primary-foreground))",
-          border: "none",
-          cursor: "pointer",
-          borderRadius: "8.925px",
-          fontFamily: "'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-          fontSize: "16.575px",
-          lineHeight: "25.5px",
-          letterSpacing: "-0.51px",
-          fontWeight: 500,
-          whiteSpace: "nowrap",
-          boxShadow:
-            "0px 42.075px 11.475px rgba(0, 0, 0, 0), 0px 26.775px 10.2px rgba(0, 0, 0, 0.01), 0px 15.3px 8.925px rgba(0, 0, 0, 0.05), 0px 6.375px 6.375px rgba(0, 0, 0, 0.09), 0px 1.275px 3.825px rgba(0, 0, 0, 0.1)",
-        }}
-      >
-        🚀 Deploy on Vercel
-      </button>
     </div>
   )
 }
 
-export default DeploymentEasy
+export default CommunityForumUI

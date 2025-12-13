@@ -10,67 +10,65 @@ export function PricingSection() {
   const pricingPlans = [
     {
       name: "Free",
-      monthlyPrice: "$0",
-      annualPrice: "$0",
-      description: "Perfect for individuals starting their journey.",
+      monthlyPrice: "₹0",
+      annualPrice: "₹0",
+      description: "Perfect for first-timers",
+      buttonText: "Start Free",
+      buttonClass: "bg-white text-black shadow-lg",
       features: [
-        "Real-time code suggestions",
-        "Basic integration logos",
-        "Single MCP server connection",
-        "Up to 2 AI coding agents",
-        "Vercel deployments with Pointer branding",
-      ],
-      buttonText: "Get Started",
-      buttonClass:
-        "bg-zinc-300 shadow-[0px_1px_1px_-0.5px_rgba(16,24,40,0.20)] outline outline-0.5 outline-[#1e29391f] outline-offset-[-0.5px] text-gray-800 text-shadow-[0px_1px_1px_rgba(16,24,40,0.08)] hover:bg-zinc-400",
+        "Access to 5 Top Companies like TCS & Wipro",
+        "1000+ Basic DSA + Aptitude Questions",
+        "Real-time Progress Tracking Dashboard",
+        "Limited Community Discussion Access",
+        "1 Timed Mock Interview per month"
+      ]
+    },
+    {
+      name: "Starter",
+      monthlyPrice: "₹299",
+      annualPrice: "₹299",
+      description: "Most Popular Choice - Lifetime Access",
+      buttonText: "Get Lifetime Access",
+      buttonClass: "bg-gradient-to-r from-emerald-500 to-green-600 text-white shadow-lg border-0",
+      popular: true,
+      popularBadgeClass: "bg-black/80 text-white border border-white/20",
+      features: [
+        "25+ Companies including Accenture, Infosys, HCL",
+        "Complete Subjects: DSA, SQL, OOPS, Aptitude, HR",
+        "Unlimited Company-specific Practice Questions",
+        "Detailed Progress Analytics + Charts",
+        "5 Full-length Mock Interviews per month",
+        "Priority Community Support + Doubt Clearing"
+      ]
     },
     {
       name: "Pro",
-      monthlyPrice: "$20",
-      annualPrice: "$16",
-      description: "Ideal for professionals.",
+      monthlyPrice: "₹449",
+      annualPrice: "₹449",
+      description: "Placement Guaranteed - Lifetime Access",
+      buttonText: "Get Lifetime Access",
+      buttonClass: "bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-lg border-0",
       features: [
-        "Enhanced real-time previews",
-        "Unlimited integrations with custom logos",
-        "Multiple MCP server connections",
-        "Up to 10 concurrent AI coding agents",
-        "Collaborative coding with team chat",
-        "Advanced version control integrations",
-        "Priority email and chat support",
-      ],
-      buttonText: "Join now",
-      buttonClass:
-        "bg-primary-foreground shadow-[0px_1px_1px_-0.5px_rgba(16,24,40,0.20)] text-primary text-shadow-[0px_1px_1px_rgba(16,24,40,0.08)] hover:bg-primary-foreground/90",
-      popular: true,
-    },
-    {
-      name: "Ultra",
-      monthlyPrice: "$200",
-      annualPrice: "$160",
-      description: "Tailored solutions for teams.",
-      features: [
-        "Dedicated account support",
-        "Unlimited MCP server clusters",
-        "Unlimited AI coding agents",
-        "Enterprise-grade security and compliance",
-        "Priority deployments and SLA guarantees",
-      ],
-      buttonText: "Talk to Sales",
-      buttonClass:
-        "bg-secondary shadow-[0px_1px_1px_-0.5px_rgba(16,24,40,0.20)] text-secondary-foreground text-shadow-[0px_1px_1px_rgba(16,24,40,0.08)] hover:bg-secondary/90",
-    },
-  ]
+        "50+ Companies: Philips, Deloitte, Capgemini + Startups",
+        "Everything in Starter Plan included",
+        "Unlimited Mock Interviews + Timed Practice",
+        "Exclusive Alumni Success Stories + Insights",
+        "AI-powered Personalized Prep Roadmap",
+        "1:1 Live Mock Interview Feedback Sessions",
+        "Lifetime Access + Priority Updates Forever"
+      ]
+    }
+  ];
 
   return (
     <section className="w-full px-5 overflow-hidden flex flex-col justify-start items-center my-0 py-8 md:py-14">
       <div className="self-stretch relative flex flex-col justify-center items-center gap-2 py-0">
         <div className="flex flex-col justify-start items-center gap-4">
           <h2 className="text-center text-foreground text-4xl md:text-5xl font-semibold leading-tight md:leading-[40px]">
-            Pricing built for every developer
+            One-time Payment, Lifetime Access
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm font-medium leading-tight">
-            Choose a plan that fits your coding workflow, from individuals starting out to <br /> growing professionals
-            and large organizations.
+            Choose your perfect plan once. Access forever. From basic prep to guaranteed placements.
           </p>
         </div>
         <div className="pt-4">
@@ -82,7 +80,7 @@ export function PricingSection() {
               <span
                 className={`text-center text-sm font-medium leading-tight ${isAnnual ? "text-accent-foreground" : "text-zinc-400"}`}
               >
-                Annually
+                Lifetime
               </span>
             </button>
             <button
@@ -92,7 +90,7 @@ export function PricingSection() {
               <span
                 className={`text-center text-sm font-medium leading-tight ${!isAnnual ? "text-accent-foreground" : "text-zinc-400"}`}
               >
-                Monthly
+                One-time
               </span>
             </button>
           </div>
@@ -151,7 +149,7 @@ export function PricingSection() {
                     <div
                       className={`text-center text-sm font-medium leading-tight ${plan.popular ? "text-primary-foreground/70" : "text-zinc-400"}`}
                     >
-                      /month
+                      One-time Payment
                     </div>
                   </div>
                   <div

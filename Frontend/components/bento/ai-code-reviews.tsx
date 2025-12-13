@@ -1,32 +1,30 @@
+// 1. CompanyPrepDashboard.jsx
 import type React from "react"
 
-const AiCodeReviews: React.FC = () => {
+const CompanyPrepDashboard: React.FC = () => {
   const themeVars = {
-    "--ai-primary-color": "hsl(var(--primary))",
-    "--ai-background-color": "hsl(var(--background))",
-    "--ai-text-color": "hsl(var(--foreground))",
-    "--ai-text-dark": "hsl(var(--primary-foreground))",
-    "--ai-border-color": "hsl(var(--border))",
-    "--ai-border-main": "hsl(var(--foreground) / 0.1)",
-    "--ai-highlight-primary": "hsl(var(--primary) / 0.12)",
-    "--ai-highlight-header": "hsl(var(--accent) / 0.2)",
+    "--ai-primary-color": "#00ff88",
+    "--ai-background-color": "#000000",
+    "--ai-text-color": "#ffffff",
+    "--ai-text-dark": "#000000",
+    "--ai-border-color": "rgba(255,255,255,0.1)",
+    "--ai-border-main": "rgba(255,255,255,0.05)",
+    "--ai-highlight-primary": "rgba(0,255,136,0.12)",
+    "--ai-highlight-header": "rgba(0,255,136,0.2)",
   }
 
   return (
     <div
-      style={
-        {
-          width: "100%",
-          height: "100%",
-          position: "relative",
-          background: "transparent",
-          ...themeVars,
-        } as React.CSSProperties
-      }
+      style={{
+        width: "100%",
+        height: "100%",
+        position: "relative",
+        background: "transparent",
+        ...themeVars,
+      } as React.CSSProperties}
       role="img"
-      aria-label="AI Code Reviews interface showing code suggestions with apply buttons"
+      aria-label="Company dashboard showing 50+ companies with question counts"
     >
-      {/* Background Message Box (Blurred) */}
       <div
         style={{
           position: "absolute",
@@ -54,7 +52,7 @@ const AiCodeReviews: React.FC = () => {
         >
           <div
             style={{
-              fontFamily: "'Geist Mono', 'SF Mono', Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+              fontFamily: "'Geist Mono', monospace",
               fontSize: "9.562px",
               lineHeight: "14.711px",
               letterSpacing: "-0.2942px",
@@ -64,37 +62,16 @@ const AiCodeReviews: React.FC = () => {
               margin: 0,
             }}
           >
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>switch (type) {"{"}</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> case 'success':</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> return {"{"}</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {"          border: theme === 'dark' ? 'border-[rgba(34,197,94,0.4)]' : 'border-green-200',"}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> icon: (</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {'            <svg className={\'baseIconClasses\'} fill="none" viewBox="0 0 14 14">'}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> &lt;path</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {'                d="M3.85156 7.875L6.47656 10.5L10.8516 3.5"'}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {'                stroke="var(--ai-primary-color)"'}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {'                strokeLinecap="round"'}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {'                strokeLinejoin="round"'}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>{'                strokeWidth="1.5"'}</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> /&gt;</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> &lt;/svg&gt;</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>TCS (450+ Questions)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Accenture (380+)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Wipro (320+)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Infosys (290+)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Cognizant (260+)</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Capgemini (220+)</p>
           </div>
         </div>
       </div>
 
-      {/* Foreground Message Box (Main) */}
       <div
         style={{
           position: "absolute",
@@ -146,7 +123,7 @@ const AiCodeReviews: React.FC = () => {
           />
           <div
             style={{
-              fontFamily: "'Geist Mono', 'SF Mono', Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+              fontFamily: "'Geist Mono', monospace",
               fontSize: "10.279px",
               lineHeight: "15.814px",
               letterSpacing: "-0.3163px",
@@ -158,30 +135,18 @@ const AiCodeReviews: React.FC = () => {
               margin: 0,
             }}
           >
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>switch (type) {"{"}</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> case 'success':</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> return {"{"}</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {"          border: theme === 'dark' ? 'border-[rgba(34,197,94,0.4)]' : 'border-green-200',"}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> icon: (</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {'            <svg className={\'baseIconClasses\'} fill="none" viewBox="0 0 14 14">'}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> &lt;path</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {'                d="M3.85156 7.875L6.47656 10.5L10.8516 3.5"'}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>{'                stroke="#22C55E"'}</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {'                strokeLinecap="round"'}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>
-              {'                strokeLinejoin="round"'}
-            </p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}>{'                strokeWidth="1.5"'}</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> /&gt;</p>
-            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 400 }}> &lt;/svg&gt;</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🏢 TCS</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>450+ Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>📱 Accenture</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>380+ Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>💻 Wipro</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>320+ Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🔧 Infosys</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>290+ Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🛠️ Cognizant</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>260+ Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>⚡ Capgemini</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>220+ Questions</p>
           </div>
           <button
             style={{
@@ -206,25 +171,10 @@ const AiCodeReviews: React.FC = () => {
               fontSize: "10.279px",
               lineHeight: "15.814px",
               letterSpacing: "-0.3163px",
-              boxShadow:
-                "0px 26.093px 7.116px rgba(0, 0, 0, 0), 0px 16.605px 6.326px rgba(0, 0, 0, 0.01), 0px 9.488px 5.535px rgba(0, 0, 0, 0.05), 0px 3.953px 3.953px rgba(0, 0, 0, 0.09), 0px 0.791px 2.372px rgba(0, 0, 0, 0.1)",
             }}
           >
-            <span
-              style={{
-                fontFamily: "'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-                fontWeight: 500,
-              }}
-            >
-              Apply changes
-            </span>
-            <span
-              style={{
-                fontFamily: "'SF Pro', -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
-                fontWeight: 500,
-              }}
-            >
-              ⌘Y
+            <span style={{ fontFamily: "'Geist', sans-serif", fontWeight: 500 }}>
+              Prep Now
             </span>
           </button>
         </div>
@@ -233,4 +183,4 @@ const AiCodeReviews: React.FC = () => {
   )
 }
 
-export default AiCodeReviews
+export default CompanyPrepDashboard

@@ -1,168 +1,97 @@
+// 4. SearchFilterDashboard.jsx
 import type React from "react"
-import { Search } from "lucide-react"
 
-interface McpConnectivityIllustrationProps {
-  className?: string
-}
-
-const McpConnectivityIllustration: React.FC<McpConnectivityIllustrationProps> = ({ className = "" }) => {
-  // Integration data with new SVG paths
-  const integrations = [
-    { name: "Figma", icon: "/images/mcp-integrations/figma.svg", installed: true },
-    { name: "Shadcn UI", icon: "/images/mcp-integrations/shadcn.svg" },
-    { name: "Next.js", icon: "/images/mcp-integrations/nextjs.svg", installed: true },
-    { name: "Tailwind CSS", icon: "/images/mcp-integrations/tailwind-css.svg" },
-    { name: "Resend", icon: "/images/mcp-integrations/resend.svg", installed: true },
-    { name: "React", icon: "/images/mcp-integrations/react.svg" },
-  ]
+const SearchFilterDashboard: React.FC = () => {
+  const themeVars = {
+    "--ai-primary-color": "#00ff88",
+    "--ai-background-color": "#000000",
+    "--ai-text-color": "#ffffff",
+    "--ai-text-dark": "#000000",
+    "--ai-border-color": "rgba(255,255,255,0.1)",
+    "--ai-border-main": "rgba(255,255,255,0.05)",
+    "--ai-highlight-primary": "rgba(0,255,136,0.12)",
+    "--ai-highlight-header": "rgba(0,255,136,0.2)",
+  }
 
   return (
     <div
-      className={`w-full h-full flex items-center justify-center p-4 relative ${className}`}
+      style={{
+        width: "100%",
+        height: "100%",
+        position: "relative",
+        background: "transparent",
+        ...themeVars,
+      } as React.CSSProperties}
       role="img"
-      aria-label="MCP Connectivity component showcasing installed integrations list"
+      aria-label="Smart search and filter dashboard"
     >
-      {/* Main Message Box */}
       <div
         style={{
           position: "absolute",
-          top: "50%",
+          top: "30px",
           left: "50%",
-          transform: "translate(-50%, calc(-50% + 24px))",
-          width: "345px",
-          height: "277px",
-          background: "linear-gradient(180deg, hsl(var(--background)) 0%, transparent 100%)",
+          transform: "translateX(-50%) scale(0.9)",
+          width: "340px",
+          height: "205.949px",
+          background: "linear-gradient(180deg, var(--ai-background-color) 0%, transparent 100%)",
+          opacity: 0.6,
+          borderRadius: "8.826px",
+          border: "0.791px solid var(--ai-border-color)",
+          overflow: "hidden",
           backdropFilter: "blur(16px)",
-          borderRadius: "9.628px",
-          border: "0.802px solid hsl(var(--border))",
+        }}
+      >
+        <div style={{ padding: "7.355px 8.826px", height: "100%", boxSizing: "border-box", overflow: "hidden" }}>
+          <div style={{ fontFamily: "'Geist Mono', monospace", fontSize: "9.562px", lineHeight: "14.711px", color: "hsl(var(--muted-foreground))" }}>
+            <p>Search: TCS</p>
+            <p>Search: Accenture</p>
+            <p>Search: Wipro</p>
+            <p>Search: Infosys</p>
+            <p>Search: Cognizant</p>
+            <p>Search: Capgemini</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          position: "absolute",
+          top: "51.336px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          width: "340px",
+          height: "221.395px",
+          background: "var(--ai-background-color)",
+          backdropFilter: "blur(16px)",
+          borderRadius: "9.488px",
+          border: "1px solid var(--ai-border-main)",
           overflow: "hidden",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            height: "100%",
-            width: "100%",
-          }}
-        >
-          {/* Search Header */}
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "12.837px",
-              padding: "8.826px 12.837px",
-              borderBottom: "0.802px solid hsl(var(--border))",
-              width: "100%",
-              boxSizing: "border-box",
-            }}
-          >
-            <div
-              style={{
-                width: "14.442px",
-                height: "14.442px",
-                position: "relative",
-                flexShrink: 0,
-              }}
-            >
-              <Search className="w-full h-full text-muted-foreground" />
-            </div>
-            <span
-              style={{
-                fontFamily: "'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-                fontSize: "12.837px",
-                lineHeight: "19.256px",
-                color: "hsl(var(--muted-foreground))",
-                fontWeight: 400,
-                whiteSpace: "nowrap",
-              }}
-            >
-              Search for servers
-            </span>
+        <div style={{ padding: "9.488px", height: "100%", boxSizing: "border-box", position: "relative", overflow: "hidden" }} className="bg-card border border-border">
+          <div style={{ position: "absolute", left: 0, right: 0, width: "100%", top: "47.67px", height: "33.118px", background: "hsl(var(--foreground) / 0.08)", zIndex: 1 }} />
+          <div style={{ position: "absolute", left: 0, right: 0, width: "100%", top: "80.791px", height: "45.465px", background: "var(--ai-highlight-primary)", zIndex: 1 }} />
+          <div style={{ fontFamily: "'Geist Mono', monospace", fontSize: "10.279px", lineHeight: "15.814px", letterSpacing: "-0.3163px", color: "var(--ai-text-color)", width: "100%", maxWidth: "320px", position: "relative", zIndex: 2, margin: 0 }}>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🔍 TCS Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Found: 450+ results</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🔍 Accenture Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Found: 380+ results</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🔍 Wipro Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Found: 320+ results</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🔍 Infosys Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Found: 290+ results</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🔍 Cognizant Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Found: 260+ results</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap", fontWeight: 600 }}>🔍 Capgemini Questions</p>
+            <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>Found: 220+ results</p>
           </div>
-          {/* Integration List */}
-          {integrations.map((integration, index) => (
-            <div
-              key={integration.name}
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                padding: "8.826px 12.837px",
-                borderBottom: index < integrations.length - 1 ? "0.479px solid hsl(var(--border))" : "none",
-                width: "100%",
-                boxSizing: "border-box",
-              }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "12.837px",
-                }}
-              >
-                <div
-                  style={{
-                    width: "24px",
-                    height: "24px",
-                    position: "relative",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    flexShrink: 0,
-                  }}
-                >
-                  <img
-                    src={integration.icon || "/placeholder.svg"}
-                    alt={integration.name}
-                    className="w-full h-full object-contain opacity-70 grayscale" // Apply opacity and grayscale
-                  />
-                </div>
-                <span
-                  style={{
-                    fontFamily: "'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-                    fontSize: "12.837px",
-                    lineHeight: "19.256px",
-                    color: "hsl(var(--muted-foreground))",
-                    fontWeight: 400,
-                    whiteSpace: "nowrap",
-                  }}
-                >
-                  {integration.name}
-                </span>
-              </div>
-              {integration.installed && (
-                <div
-                  style={{
-                    background: "hsl(var(--primary) / 0.08)",
-                    padding: "1.318px 5.272px",
-                    borderRadius: "3.295px",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <span
-                    style={{
-                      fontFamily: "'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-                      fontSize: "9.583px",
-                      lineHeight: "15.333px",
-                      color: "hsl(var(--primary))",
-                      fontWeight: 500,
-                      whiteSpace: "nowrap",
-                    }}
-                  >
-                    Installed
-                  </span>
-                </div>
-              )}
-            </div>
-          ))}
+          <button style={{ position: "absolute", top: "calc(50% + 29.745px)", right: "20px", transform: "translateY(-50%)", zIndex: 3, display: "flex", alignItems: "center", justifyContent: "center", gap: "3.953px", background: "var(--ai-primary-color)", color: "var(--ai-text-dark)", border: "none", cursor: "pointer", fontWeight: 500, padding: "3.163px 6.326px", borderRadius: "5.535px", fontSize: "10.279px" }}>
+            <span style={{ fontFamily: "'Geist', sans-serif", fontWeight: 500 }}>Filter</span>
+          </button>
         </div>
       </div>
     </div>
   )
 }
 
-export default McpConnectivityIllustration
+export default SearchFilterDashboard

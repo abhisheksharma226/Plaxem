@@ -6,34 +6,34 @@ import { ChevronDown } from "lucide-react"
 
 const faqData = [
   {
-    question: "What is Pointer and who is it for?",
+    question: "What is Plaxem and who is it for?",
     answer:
-      "Pointer is an AI-powered development platform designed for developers, teams, and organizations who want toaccelerate their coding workflow. It's perfect for both individual developers looking to enhance their productivity and teams seeking seamless collaboration tools.",
+      "Plaxem is a company-specific placement preparation platform for students and early-career professionals preparing for tech interviews. It's perfect for final-year students, fresh graduates, and anyone targeting MNCs like TCS, Accenture, Wipro, Infosys, or startups.",
   },
   {
-    question: "How does Pointer's AI code review work?",
+    question: "How does Plaxem's company-wise prep work?",
     answer:
-      "Our AI analyzes your code in real-time, providing intelligent suggestions for improvements, catching potential bugs, and ensuring best practices. It learns from your coding patterns and adapts to your team's standards, making code reviews faster and more consistent.",
+      "Plaxem curates real interview questions by company and subject (DSA, SQL, OOPS, Aptitude, HR), organized by difficulty. You practice, track progress, and unlock advanced features as you complete modules.",
   },
   {
-    question: "Can I integrate Pointer with my existing tools?",
+    question: "Can I access company-specific questions?",
     answer:
-      "Yes! Pointer offers one-click integrations with popular development tools including GitHub, GitLab, VS Code, Slack, and many more. Our MCP connectivity allows you to easily manage and configure server access across your entire development stack.",
+      "Yes! Plaxem offers curated questions for 50+ companies including TCS, Accenture, Wipro, Infosys, Cognizant, Capgemini, Philips, HCL, and more. Each company has dedicated practice spaces.",
   },
   {
     question: "What's included in the free plan?",
     answer:
-      "The free plan includes real-time code suggestions, basic integrations, single MCP server connection, up to 2 AI coding agents, and Vercel deployments with Pointer branding. It's perfect for individual developers getting started.",
+      "The free plan includes access to 5 top companies (TCS, Wipro, Accenture, Infosys, Cognizant), 1000+ basic questions, progress tracking, and limited community access.",
   },
   {
-    question: "How do parallel coding agents work?",
+    question: "How do mock interviews work?",
     answer:
-      "Our parallel coding agents can work on different parts of your codebase simultaneously, solving complex problems faster than traditional single-threaded approaches. You can launch multiple agents to handle different tasks like bug fixes, feature development, and code optimization concurrently.",
+      "Plaxem offers timed mock interviews tailored to each company. Unlock advanced mocks after completing learning modules. Practice with real questions and get instant feedback.",
   },
   {
-    question: "Is my code secure with Pointer?",
+    question: "Is my progress tracked?",
     answer:
-      "Absolutely. We use enterprise-grade security measures including end-to-end encryption, secure data transmission, and compliance with industry standards. Your code never leaves your secure environment without your explicit permission, and we offer on-premises deployment options for enterprise customers.",
+      "Yes! Plaxem tracks progress for each question, subject, and company. Dynamic progress bars update in real-time and are visible on your dashboard.",
   },
 ]
 
@@ -99,7 +99,7 @@ export function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm font-medium leading-[18.20px] break-words">
-            Everything you need to know about Pointer and how it can transform your development workflow
+            Everything you need to know about Plaxem and how it can transform your placement preparation
           </p>
         </div>
       </div>
