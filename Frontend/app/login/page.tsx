@@ -4,7 +4,7 @@ import React from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Header } from "@/components/header"
+// import { Header } from "@/components/header"
 import { useState } from "react"
 
 export default function LoginPage() {
@@ -160,7 +160,7 @@ export default function LoginPage() {
 
       {/* Header */}
       <div className="absolute top-0 left-0 right-0 z-20">
-        <Header />
+        {/* <Header /> */}
       </div>
 
       {/* Login Form Container */}
