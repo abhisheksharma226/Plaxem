@@ -175,7 +175,7 @@ export default function SignupPage() {
             {/* Heading */}
             <div className="space-y-3 text-center">
               <h1 className="text-foreground text-3xl md:text-4xl font-semibold leading-tight">Create account</h1>
-              <p className="text-muted-foreground text-base font-medium">Join us to accelerate your development</p>
+              <p className="text-muted-foreground text-base font-medium">Join us to accelerate your Placement Journey</p>
             </div>
 
             {/* Form */}
