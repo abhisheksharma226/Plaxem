@@ -6,15 +6,39 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 // import { Header } from "@/components/header"
 import { useState } from "react"
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
 export default function LoginPage() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
+  const [error, setError] = useState("")
+  const [isLoading, setIsLoading] = useState(false)
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle login logic here
-    console.log("Login attempt:", { email, password })
+    setError("")
+    setIsLoading(true)
+    
+    try {
+      const res = await fetch(`${API_URL}/api/auth/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password })
+      });
+      
+      const data = await res.json();
+      
+      if (data.success) {
+        localStorage.setItem('token', data.token);
+        window.location.href = '/dashboard';
+      } else {
+        setError(data.message || 'Login failed');
+      }
+    } catch (error) {
+      setError('Invalid Credentials. Please try again.');
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   const handleGoogleLogin = () => {
@@ -175,6 +199,11 @@ export default function LoginPage() {
 
             {/* Form */}
             <form onSubmit={handleLogin} className="space-y-4">
+              {error && (
+                <div className="p-3 bg-destructive/10 border border-destructive/30 rounded-lg">
+                  <p className="text-destructive text-sm font-medium">{error}</p>
+                </div>
+              )}
               <div className="space-y-2">
                 <label htmlFor="email" className="text-foreground text-sm font-medium">
                   Email
@@ -216,9 +245,10 @@ export default function LoginPage() {
 
               <Button
                 type="submit"
-                className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 py-3 rounded-full font-medium text-base transition-all duration-200"
+                disabled={isLoading}
+                className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 py-3 rounded-full font-medium text-base transition-all duration-200 disabled:opacity-50"
               >
-                Sign in
+                {isLoading ? "Signing in..." : "Sign in"}
               </Button>
             </form>
 

@@ -11,16 +11,41 @@ export default function SignupPage() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
+  const [error, setError] = useState("")
+  const [isLoading, setIsLoading] = useState(false)
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
-  const handleSignup = (e: React.FormEvent) => {
-    e.preventDefault()
+
+  const handleSignup = async (e) => {
+    e.preventDefault();
+    setError("")
+    setIsLoading(true)
+    
     if (password !== confirmPassword) {
-      alert("Passwords do not match")
+      setError("Passwords don't match");
+      setIsLoading(false)
       return
     }
-    // Handle signup logic here
-    console.log("Signup attempt:", { email, password })
-  }
+    
+    try {
+      const res = await fetch(`${API_URL}/api/auth/register`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password })
+      });
+      const data = await res.json();
+      if (data.success) {
+        localStorage.setItem('token', data.token);
+        window.location.href = '/dashboard';
+      } else {
+        setError(data.message || 'Signup failed');
+      }
+    } catch (error) {
+      setError('Network error. Please try again.');
+    } finally {
+      setIsLoading(false)
+    }
+  };
 
   const handleGoogleSignup = () => {
     // TODO: Implement Google OAuth flow
@@ -180,6 +205,11 @@ export default function SignupPage() {
 
             {/* Form */}
             <form onSubmit={handleSignup} className="space-y-4">
+              {error && (
+                <div className="p-3 bg-destructive/10 border border-destructive/30 rounded-lg">
+                  <p className="text-destructive text-sm font-medium">{error}</p>
+                </div>
+              )}
               <div className="space-y-2">
                 <label htmlFor="email" className="text-foreground text-sm font-medium">
                   Email
@@ -227,9 +257,10 @@ export default function SignupPage() {
 
               <Button
                 type="submit"
-                className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 py-3 rounded-full font-medium text-base transition-all duration-200"
+                disabled={isLoading}
+                className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 py-3 rounded-full font-medium text-base transition-all duration-200 disabled:opacity-50"
               >
-                Create account
+                {isLoading ? "Creating account..." : "Create account"}
               </Button>
             </form>
 

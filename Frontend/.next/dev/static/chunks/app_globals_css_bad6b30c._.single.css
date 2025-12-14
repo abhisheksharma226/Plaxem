@@ -1716,6 +1716,10 @@ body {
   border-color: #fff3;
 }
 
+.border-destructive\/30 {
+  border-color: hsl(var(--destructive) / .3);
+}
+
 .border-l-transparent {
   border-left-color: #0000;
 }
@@ -1851,6 +1855,10 @@ body {
 
 .bg-yellow-500\/20 {
   background-color: #eab30833;
+}
+
+.bg-destructive\/10 {
+  background-color: hsl(var(--destructive) / .1);
 }
 
 .bg-gradient-to-b {

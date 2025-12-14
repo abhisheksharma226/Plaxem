@@ -56,3 +56,1831 @@ Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
 [00:02:59.488] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765738767636}
 [00:12:00.583] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:24:31.778] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:24:31.975] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765740060115}
+[00:32:07.374] Server  LOG      ✓ Compiled in 151ms
+[00:32:20.902] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:32:21.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:21.577] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:32:21.577] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:32:21.577] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765740529728}
+[00:33:41.585] Server  LOG      ✓ Compiled in 192ms
+[00:34:32.493] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:34:33.076] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:33.641] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:34:33.642] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:34:33.642] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765740661779}
+[00:37:23.031] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:37:23.539] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:24.141] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:37:24.141] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:37:24.141] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765740832296}
+[00:42:26.575] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:42:27.062] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:27.530] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:42:27.530] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:42:27.530] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741135681}
+[00:42:50.023] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:42:50.443] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:50.915] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:42:50.915] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:42:50.915] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741159070}
+[00:43:07.680] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:43:08.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:08.700] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:43:08.701] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:43:08.701] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741176849}
+[00:43:11.146] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:43:11.425] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741179571}
+[00:45:52.977] Server  LOG      ✓ Compiled in 164ms
+[00:45:53.169] Browser ERROR   uncaughtError: ReferenceError: handleLogin is not defined
+[00:45:54.231] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:45:54.245] Server  LOG      ✓ Compiled in 205ms
+[00:45:54.494] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:54.791] Server  ERROR   D:\Interview-preparation-platform\Frontend\.next\dev\server\chunks\ssr\_c6aef614._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:54.796] Server  ERROR    ⨯ ReferenceError: handleLogin is not defined
+[00:45:54.815] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:54.828] Browser ERROR   uncaughtError: ReferenceError: handleLogin is not defined
+[00:45:55.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:55.819] Browser ERROR   uncaughtError: ReferenceError: handleLogin is not defined
+[00:45:56.344] Server  LOG      ✓ Compiled in 762ms
+[00:45:56.405] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:45:57.128] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:57.632] Server  ERROR   D:\Interview-preparation-platform\Frontend\.next\dev\server\chunks\ssr\_c6aef614._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:57.633] Server  ERROR    ⨯ ReferenceError: handleLogin is not defined
+[00:45:57.675] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:58.451] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:58.960] Browser ERROR   uncaughtError: ReferenceError: handleLogin is not defined
+[00:46:02.640] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:46:02.846] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:46:03.026] Server  LOG      ✓ Compiled in 222ms
+[00:46:03.648] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:04.383] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:46:04.383] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:46:04.383] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741352522}
+[00:46:06.556] Server  LOG      ✓ Compiled in 185ms
+[00:46:12.845] Server  LOG      ✓ Compiled in 221ms
+[00:46:15.432] Server  LOG      ✓ Compiled in 190ms
+[00:46:53.461] Server  LOG      ✓ Compiled in 149ms
+[00:47:23.960] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:47:24.650] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:25.182] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:47:25.182] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:47:25.183] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741433338}
+[00:47:34.694] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:47:35.097] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:35.662] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:47:35.662] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:47:35.662] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741443803}
+[00:47:37.648] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:47:38.144] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:38.619] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:47:38.619] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:47:38.619] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741446765}
+[00:50:10.861] Server  LOG      ✓ Compiled in 713ms
+[00:50:17.761] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:50:18.570] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:19.374] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:50:19.374] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:50:19.374] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741607525}
+[00:50:45.049] Server  LOG      ✓ Compiled in 154ms
+[00:50:51.098] Server  LOG      ✓ Compiled in 170ms
+[00:50:54.545] Server  LOG      ✓ Compiled in 261ms
+[00:51:01.167] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:51:01.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:02.790] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:51:02.790] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:51:02.790] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741650942}
+[00:51:26.113] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:51:26.409] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741674552}
+[00:52:39.645] Server  LOG      ✓ Compiled in 173ms
+[00:52:44.117] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:52:45.017] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:46.231] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:52:46.231] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:52:46.231] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741754377}
+[00:53:34.328] Server  LOG      ✓ Compiled in 156ms
+[00:53:36.636] Server  LOG      ✓ Compiled in 213ms
+[00:53:43.578] Server  LOG      ✓ Compiled in 281ms
+[00:53:45.099] Server  LOG      ✓ Compiled in 202ms
+[00:53:45.219] Browser ERROR   ./app/signup/page.tsx:42:30
+Parsing ecmascript source code failed
+  40 |       }
+  41 |     } catch (error) {
+> 42 |       setError('Password don't  error. Please try again.');
+     |                              ^
+  43 |     } finally {
+  44 |       setIsLoading(false)
+  45 |     }
+
+Expected ',', got 't'
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:53:52.247] Browser ERROR   ./app/signup/page.tsx:42:30
+Parsing ecmascript source code failed
+  40 |       }
+  41 |     } catch (error) {
+> 42 |       setError('Password don't match. Please try again.');
+     |                              ^
+  43 |     } finally {
+  44 |       setIsLoading(false)
+  45 |     }
+
+Expected ',', got 't'
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:53:56.115] Server  LOG      ✓ Compiled in 132ms
+[00:53:56.222] Browser ERROR   ./app/signup/page.tsx:42:16
+Parsing ecmascript source code failed
+  40 |       }
+  41 |     } catch (error) {
+> 42 |       setError("Password don't match. Please try again.');
+     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  43 |     } finally {
+  44 |       setIsLoading(false)
+  45 |     }
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:54:00.178] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:54:03.592] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:54:04.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:05.168] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:54:05.168] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:54:05.168] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741833315}
+[00:54:29.082] Server  LOG      ✓ Compiled in 174ms
+[00:54:31.078] Server  LOG      ✓ Compiled in 164ms
+[00:54:46.375] Server  LOG      ✓ Compiled in 217ms
+[00:55:38.248] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:55:38.790] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:39.282] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:55:39.282] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:55:39.282] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741927425}
+[00:56:22.597] Server  LOG      ✓ Compiled in 274ms
+[00:56:25.735] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:26.306] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:26.805] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:56:26.805] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:56:26.805] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741974954}
+[00:56:43.886] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:44.320] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:44.914] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:56:44.914] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:56:44.914] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741993063}
+[00:56:49.617] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:50.101] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:50.574] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:56:50.574] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:56:50.574] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765741998729}
+[00:57:04.148] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:57:04.408] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765742012545}
+[00:57:04.926] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765742013073}
+[00:57:07.255] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765742015404}
+[00:57:07.998] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:57:09.140] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765742017136}
+[01:05:16.273] Server  LOG      ✓ Compiled in 137ms
+[01:05:43.001] Server  LOG      ✓ Compiled in 245ms
+[01:05:44.784] Server  LOG      ✓ Compiled in 211ms
+[01:06:03.153] Server  LOG      ✓ Compiled in 166ms
+[01:06:11.954] Server  LOG      ✓ Compiled in 113ms
+[01:06:13.351] Server  LOG      ✓ Compiled in 152ms
+[01:06:13.484] Browser ERROR   ./app/login/page.tsx:9:1
+Ecmascript file had an error
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | "use client"
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import React from "react"
+  12 | import Link from "next/link"
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:06:13.484] Browser ERROR   ./app/login/page.tsx:13:10
+Ecmascript file had an error
+  11 | import React from "react"
+  12 | import Link from "next/link"
+> 13 | import { Button } from "@/components/ui/button"
+     |          ^^^^^^
+  14 | import { Input } from "@/components/ui/input"
+  15 | // import { Header } from "@/components/header"
+  16 | import { useState } from "react"
+
+the name `Button` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:06:13.484] Browser ERROR   ./app/login/page.tsx:14:10
+Ecmascript file had an error
+  12 | import Link from "next/link"
+  13 | import { Button } from "@/components/ui/button"
+> 14 | import { Input } from "@/components/ui/input"
+     |          ^^^^^
+  15 | // import { Header } from "@/components/header"
+  16 | import { useState } from "react"
+  17 | import { API_ENDPOINTS } from "@/lib/api"
+
+the name `Input` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:06:13.484] Browser ERROR   ./app/login/page.tsx:12:8
+Ecmascript file had an error
+  10 |
+  11 | import React from "react"
+> 12 | import Link from "next/link"
+     |        ^^^^
+  13 | import { Button } from "@/components/ui/button"
+  14 | import { Input } from "@/components/ui/input"
+  15 | // import { Header } from "@/components/header"
+
+the name `Link` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:06:13.485] Browser ERROR   ./app/login/page.tsx:315:25
+Ecmascript file had an error
+  313 |
+  314 |
+> 315 | export default function LoginPage() {
+      |                         ^^^^^^^^^
+  316 |   const [email, setEmail] = useState("")
+  317 |   const [password, setPassword] = useState("")
+  318 |   const [error, setError] = useState("")
+
+the name `LoginPage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:06:13.485] Browser ERROR   ./app/login/page.tsx:315:1
+Ecmascript file had an error
+  313 |
+  314 |
+> 315 | export default function LoginPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 316 |   const [email, setEmail] = useState("")
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 317 |   const [password, setPassword] = useState("")
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 318 |   const [error, setError] = useState("")
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 319 |   const [isLoading, setIsLoading] = useState(false)
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 320 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 321 |   const handleLogin = async (e: React.FormEvent) => {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 322 |     e.preventDefault()
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 323 |     setError("")
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 324 |     setIsLoading(true)
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 325 |     
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 326 |     try {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 327 |       const res = await fetch(API_ENDPOINTS.REGISTER, {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 328 |         method: 'POST',
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 329 |         headers: { 'Content-Type': 'application/json' },
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 330 |         body: JSON.stringify({ email, password })
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 331 |       });
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 332 |       
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 333 |       const data = await res.json();
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 334 |       
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 335 |       if (data.success) {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 336 |         localStorage.setItem('token', data.token);
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 337 |         window.location.href = '/dashboard';
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 338 |       } else {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 339 |         setError(data.message || 'Login failed');
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 340 |       }
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 341 |     } catch (error) {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 342 |       setError('Invalid Credentials. Please try again.');
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 343 |     } finally {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 344 |       setIsLoading(false)
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 345 |     }
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 346 |   }
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 347 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 348 |   const handleGoogleLogin = () => {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 349 |     // TODO: Implement Google OAuth flow
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 350 |     console.log("Google login initiated")
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 351 |   }
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 352 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 353 |   return (
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 354 |     <div className="min-h-screen bg-background relative overflow-hidden">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 355 |       {/* Grid Background */}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 356 |       <div className="absolute inset-0 z-0">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 357 |         <svg
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 358 |           width="100%"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 359 |           height="100%"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 360 |           viewBox="0 0 1220 810"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 361 |           fill="none"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 362 |           xmlns="http://www.w3.org/2000/svg"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 363 |           preserveAspectRatio="xMidYMid slice"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 364 |         >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 365 |           <g clipPath="url(#clip0_login)">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 366 |             <mask
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 367 |               id="mask0_login"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 368 |               style={{ maskType: "alpha" }}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 369 |               maskUnits="userSpaceOnUse"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 370 |               x="10"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 371 |               y="-1"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 372 |               width="1200"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 373 |               height="812"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 374 |             >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 375 |               <rect x="10" y="-0.84668" width="1200" height="811.693" fill="url(#paint0_linear_login)" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 376 |             </mask>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 377 |             <g mask="url(#mask0_login)">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 378 |               {[...Array(35)].map((_, i) => (
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 379 |                 <React.Fragment key={`row-${i}`}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 380 |                   {[...Array(22)].map((_, j) => (
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 381 |                     <rect
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 382 |                       key={`cell-${i}-${j}`}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 383 |                       x={-20.0891 + i * 36}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 384 |                       y={9.2 + j * 36}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 385 |                       width="35.6"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 386 |                       height="35.6"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 387 |                       stroke="hsl(var(--foreground))"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 388 |                       strokeOpacity="0.11"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 389 |                       strokeWidth="0.4"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 390 |                       strokeDasharray="2 2"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 391 |                     />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 392 |                   ))}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 393 |                 </React.Fragment>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 394 |               ))}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 395 |             </g>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 396 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 397 |             <g filter="url(#filter0_login)">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 398 |               <path
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 399 |                 d="M1447.45 -87.0203V-149.03H1770V1248.85H466.158V894.269C1008.11 894.269 1447.45 454.931 1447.45 -87.0203Z"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 400 |                 fill="url(#paint1_linear_login)"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 401 |               />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 402 |             </g>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 403 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 404 |             <g filter="url(#filter1_login)">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |               <path
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 406 |                 d="M1383.45 -151.02V-213.03H1706V1184.85H402.158V830.269C944.109 830.269 1383.45 390.931 1383.45 -151.02Z"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 407 |                 fill="url(#paint2_linear_login)"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 408 |                 fillOpacity="0.69"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 409 |               />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 410 |             </g>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 411 |           </g>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 412 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 413 |           <rect
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 414 |             x="0.5"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 415 |             y="0.5"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 416 |             width="1219"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 417 |             height="809"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 418 |             rx="15.5"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 419 |             stroke="hsl(var(--foreground))"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 420 |             strokeOpacity="0.06"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 421 |           />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 422 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 423 |           <defs>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 424 |             <filter
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 425 |               id="filter0_login"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 426 |               x="147.369"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 427 |               y="-467.818"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 428 |               width="1941.42"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 429 |               height="2035.46"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 430 |               filterUnits="userSpaceOnUse"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 431 |               colorInterpolationFilters="sRGB"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 432 |             >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 433 |               <feFlood floodOpacity="0" result="BackgroundImageFix" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 434 |               <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 435 |               <feGaussianBlur stdDeviation="159.394" result="effect1_foregroundBlur_login" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 436 |             </filter>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 437 |             <filter
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 438 |               id="filter1_login"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 439 |               x="-554.207"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 440 |               y="-1169.39"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 441 |               width="3216.57"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 442 |               height="3310.61"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 443 |               filterUnits="userSpaceOnUse"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 444 |               colorInterpolationFilters="sRGB"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 445 |             >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 446 |               <feFlood floodOpacity="0" result="BackgroundImageFix" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 447 |               <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 448 |               <feGaussianBlur stdDeviation="478.182" result="effect1_foregroundBlur_login" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 449 |             </filter>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 450 |             <linearGradient
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 451 |               id="paint0_linear_login"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 452 |               x1="35.0676"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 453 |               y1="23.6807"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 454 |               x2="903.8"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 455 |               y2="632.086"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 456 |               gradientUnits="userSpaceOnUse"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 457 |             >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |               <stop stopColor="hsl(var(--foreground))" stopOpacity="0" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 459 |               <stop offset="1" stopColor="hsl(var(--muted-foreground))" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 460 |             </linearGradient>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 461 |             <linearGradient
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 462 |               id="paint1_linear_login"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 463 |               x1="1118.08"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 464 |               y1="-149.03"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 465 |               x2="1118.08"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 466 |               y2="1248.85"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 467 |               gradientUnits="userSpaceOnUse"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 468 |             >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 469 |               <stop stopColor="hsl(var(--foreground))" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 470 |               <stop offset="0.578125" stopColor="hsl(var(--primary-light))" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 471 |               <stop offset="1" stopColor="hsl(var(--primary))" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 472 |             </linearGradient>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 473 |             <linearGradient
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 474 |               id="paint2_linear_login"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 475 |               x1="1054.08"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 476 |               y1="-213.03"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 477 |               x2="1054.08"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 478 |               y2="1184.85"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 479 |               gradientUnits="userSpaceOnUse"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 480 |             >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 481 |               <stop stopColor="hsl(var(--foreground))" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 482 |               <stop offset="0.578125" stopColor="hsl(var(--primary-light))" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 483 |               <stop offset="1" stopColor="hsl(var(--primary))" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 484 |             </linearGradient>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 485 |           </defs>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 486 |         </svg>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 487 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 488 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 489 |       {/* Header */}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 490 |       <div className="absolute top-0 left-0 right-0 z-20">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 491 |         {/* <Header /> */}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 492 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 493 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 494 |       {/* Login Form Container */}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 495 |       <div className="relative z-10 flex items-center justify-center min-h-screen px-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 496 |         <div className="w-full max-w-[400px]">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 497 |           <div className="space-y-8">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 498 |             {/* Heading */}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 499 |             <div className="space-y-3 text-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 500 |               <h1 className="text-foreground text-3xl md:text-4xl font-semibold leading-tight">Welcome back</h1>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 501 |               <p className="text-muted-foreground text-base font-medium">Sign in to your account to continue</p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 502 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 503 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 504 |             {/* Form */}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 505 |             <form onSubmit={handleLogin} className="space-y-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 506 |               {error && (
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 507 |                 <div className="p-3 bg-destructive/10 border border-destructive/30 rounded-lg">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 508 |                   <p className="text-destructive text-sm font-medium">{error}</p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 509 |                 </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 510 |               )}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 511 |               <div className="space-y-2">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 512 |                 <label htmlFor="email" className="text-foreground text-sm font-medium">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 513 |                   Email
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 514 |                 </label>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 515 |                 <Input
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 516 |                   id="email"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 517 |                   type="email"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 518 |                   placeholder="you@example.com"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 519 |                   value={email}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 520 |                   onChange={(e) => setEmail(e.target.value)}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 521 |                   className="bg-background border-border text-foreground placeholder:text-muted-foreground h-10"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 522 |                   required
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 523 |                 />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 524 |               </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 525 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 526 |               <div className="space-y-2">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 527 |                 <label htmlFor="password" className="text-foreground text-sm font-medium">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 528 |                   Password
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 529 |                 </label>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 530 |                 <Input
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 531 |                   id="password"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 532 |                   type="password"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 533 |                   placeholder="Enter your password"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 534 |                   value={password}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 535 |                   onChange={(e) => setPassword(e.target.value)}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 536 |                   className="bg-background border-border text-foreground placeholder:text-muted-foreground h-10"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 537 |                   required
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 538 |                 />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 539 |               </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 540 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 541 |               <div className="flex justify-end">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 542 |                 <Link
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 543 |                   href="/forgot-password"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 544 |                   className="text-primary text-sm font-medium hover:text-primary/80 transition-colors"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 545 |                 >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 546 |                   Forgot password?
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 547 |                 </Link>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 548 |               </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 549 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 550 |               <Button
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 551 |                 type="submit"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 552 |                 disabled={isLoading}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 553 |                 className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 py-3 rounded-full font-medium text-base transition-all duration-200 disabled:opacity-50"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 554 |               >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 555 |                 {isLoading ? "Signing in..." : "Sign in"}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 556 |               </Button>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 557 |             </form>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 558 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 559 |             {/* Divider */}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 560 |             <div className="relative">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 561 |               <div className="absolute inset-0 flex items-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 562 |                 <div className="w-full border-border border-t" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 563 |               </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 564 |               <div className="relative flex justify-center text-sm">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 565 |                 <span className="px-2 bg-background text-muted-foreground">or</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 566 |               </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 567 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 568 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 569 |             {/* Google Sign In button */}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 570 |             <Button
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 571 |               onClick={handleGoogleLogin}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 572 |               type="button"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 573 |               className="w-full bg-muted text-foreground hover:bg-muted/80 py-3 rounded-full font-medium text-base transition-all duration-200 border border-border flex items-center justify-center gap-2"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 574 |             >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 575 |               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 576 |                 <path
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 577 |                   d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 578 |                   fill="#4285F4"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 579 |                 />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 580 |                 <path
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 581 |                   d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 582 |                   fill="#34A853"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 583 |                 />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 584 |                 <path
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 585 |                   d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 586 |                   fill="#FBBC05"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 587 |                 />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 588 |                 <path
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 589 |                   d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 590 |                   fill="#EA4335"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 591 |                 />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 592 |               </svg>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 593 |               Sign in with Google
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 594 |             </Button>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 595 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 596 |             {/* Sign Up Link */}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 597 |             <p className="text-center text-muted-foreground text-sm">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 598 |               Don't have an account?{" "}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 599 |               <Link href="/signup" className="text-primary font-medium hover:text-primary/80 transition-colors">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 600 |                 Sign up
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 601 |               </Link>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 602 |             </p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 603 |           </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 604 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 605 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 606 |     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 607 |   )
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 608 | }
+      | ^^
+  609 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:06:13.485] Browser ERROR   ./app/login/page.tsx:16:10
+Ecmascript file had an error
+  14 | import { Input } from "@/components/ui/input"
+  15 | // import { Header } from "@/components/header"
+> 16 | import { useState } from "react"
+     |          ^^^^^^^^
+  17 | import { API_ENDPOINTS } from "@/lib/api"
+  18 |
+  19 | export default function LoginPage() {
+
+the name `useState` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:06:14.784] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:06:14.786] Server  LOG      ✓ Compiled in 230ms
+[01:06:24.985] Server  LOG      ✓ Compiled in 115ms
+[01:08:12.215] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.218] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.220] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.222] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.227] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.230] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.232] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.236] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.241] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.245] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.248] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.252] Server  ERROR    ⨯ ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:12.256] Server  LOG      ✓ Compiled in 70ms
+[01:08:12.363] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:24.256] Server  LOG        Reload env: .env.local
+[01:08:24.567] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:25.680] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:25.921] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:26.420] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:26.908] Browser ERROR   uncaughtError: Error: ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:27.104] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:27.264] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:31.123] Server  LOG        Reload env: .env.local
+[01:08:31.426] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:32.014] Browser ERROR   uncaughtError: Error: ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:32.238] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:32.238] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:34.246] Server  LOG        Reload env: .env.local
+[01:08:34.689] Browser ERROR   uncaughtError: Error: ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:34.866] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:34.866] Browser ERROR   ./app/login/page.tsx:9:1
+Module not found: Can't resolve '@/lib/api'
+   7 | // import { Header } from "@/components/header"
+   8 | import { useState } from "react"
+>  9 | import { API_ENDPOINTS } from "@/lib/api"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function LoginPage() {
+  12 |   const [email, setEmail] = useState("")
+
+Import map: aliased to relative './lib/api' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:09:03.647] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:09:04.044] Server  LOG      ✓ Compiled in 129ms
+[01:09:04.662] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:06.115] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:09:06.115] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:09:06.115] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765742734235}
+[01:09:06.306] Browser WARN    Image with src "/images/dashboard-preview.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:09:11.060] Browser ERROR   ./app/login/page.tsx:23:56
+Parsing ecmascript source code failed
+  21 |     
+  22 |     try {
+> 23 |       const res = await fetch(API_ENDPOINTS.REGISTER,) {
+     |                                                        ^
+  24 |         method: 'POST',
+  25 |         headers: { 'Content-Type': 'application/json' },
+  26 |         body: JSON.stringify({ email, password })
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:09:15.786] Browser ERROR   ./app/login/page.tsx:23:34
+Parsing ecmascript source code failed
+  21 |     
+  22 |     try {
+> 23 |       const res = await fetch(A) {
+     |                                  ^
+  24 |         method: 'POST',
+  25 |         headers: { 'Content-Type': 'application/json' },
+  26 |         body: JSON.stringify({ email, password })
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:09:18.053] Browser ERROR   ./app/login/page.tsx:23:62
+Parsing ecmascript source code failed
+  21 |     
+  22 |     try {
+> 23 |       const res = await fetch(`${API_URL}/api/auth/register` {
+     |                                                              ^
+  24 |         method: 'POST',
+  25 |         headers: { 'Content-Type': 'application/json' },
+  26 |         body: JSON.stringify({ email, password })
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:09:33.134] Browser ERROR   ./app/login/page.tsx:23:62
+Parsing ecmascript source code failed
+  21 |     
+  22 |     try {
+> 23 |       const res = await fetch(`${API_URL}/api/auth/register` {
+     |                                                              ^
+  24 |         method: 'POST',
+  25 |         headers: { 'Content-Type': 'application/json' },
+  26 |         body: JSON.stringify({ email, password })
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:09:39.510] Browser ERROR   ./app/login/page.tsx:23:62
+Parsing ecmascript source code failed
+  21 |     
+  22 |     try {
+> 23 |       const res = await fetch(`${API_URL}/api/auth/register` {
+     |                                                              ^
+  24 |         method: 'POST',
+  25 |         headers: { 'Content-Type': 'application/json' },
+  26 |         body: JSON.stringify({ email, password })
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:09:40.570] Browser ERROR   ./app/login/page.tsx:23:62
+Parsing ecmascript source code failed
+  21 |     
+  22 |     try {
+> 23 |       const res = await fetch(`${API_URL}/api/auth/register` {
+     |                                                              ^
+  24 |         method: 'POST',
+  25 |         headers: { 'Content-Type': 'application/json' },
+  26 |         body: JSON.stringify({ email, password })
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:09:54.764] Browser ERROR   uncaughtError: Error: ./app/login/page.tsx:23:62
+Parsing ecmascript source code failed
+  21 |     
+  22 |     try {
+> 23 |       const res = await fetch(`${API_URL}/api/auth/register` {
+     |                                                              ^
+  24 |         method: 'POST',
+  25 |         headers: { 'Content-Type': 'application/json' },
+  26 |         body: JSON.stringify({ email, password })
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+
+
+[01:09:54.914] Browser ERROR   ./app/login/page.tsx:23:62
+Parsing ecmascript source code failed
+  21 |     
+  22 |     try {
+> 23 |       const res = await fetch(`${API_URL}/api/auth/register` {
+     |                                                              ^
+  24 |         method: 'POST',
+  25 |         headers: { 'Content-Type': 'application/json' },
+  26 |         body: JSON.stringify({ email, password })
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:09:55.021] Browser ERROR   ./app/login/page.tsx:23:62
+Parsing ecmascript source code failed
+  21 |     
+  22 |     try {
+> 23 |       const res = await fetch(`${API_URL}/api/auth/register` {
+     |                                                              ^
+  24 |         method: 'POST',
+  25 |         headers: { 'Content-Type': 'application/json' },
+  26 |         body: JSON.stringify({ email, password })
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./app/login/page.tsx [Client Component Browser]
+    ./app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/login/page.tsx [Client Component SSR]
+    ./app/login/page.tsx [Server Component]
+[01:10:26.974] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:10:27.205] Server  LOG      ✓ Compiled in 174ms
+[01:10:27.782] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:29.646] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:10:29.646] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:10:29.646] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765742817759}
+[01:10:29.808] Browser WARN    Image with src "/images/dashboard-preview.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:14:41.904] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:14:42.718] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:43.292] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:14:43.292] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:14:43.292] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765743071352}
+[01:14:43.292] Browser WARN    Image with src "/images/dashboard-preview.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:19:21.983] Server  LOG        Reload env: .env.local
+[01:19:22.412] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:19:24.442] Server  LOG        Reload env: .env.local
+[01:19:24.848] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:19:25.850] Server  LOG        Reload env: .env.local
+[01:19:26.244] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:35:20.776] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
